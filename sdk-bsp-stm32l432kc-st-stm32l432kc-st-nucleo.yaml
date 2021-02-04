@@ -10,7 +10,7 @@ board:
   description_zh: STM32 Nucleo-32板为用户提供了一种经济、灵活的方式，通过从STM32微控制器提供的性能和功耗特性的各种组合中进行选择，来尝试新概念和构建原型。
   emulator_machine: ''
   large_image: documents/images/board_large.png
-  name: STM32L432KC-ST-NUCLEO
+  name: STM32L432-ST-NUCLEO
   price_cn: N/A CNY
   price_global: N/A USD
   sale_contact_cn: https://www.st.com/
@@ -42,7 +42,7 @@ features:
 - STM32 microcontroller in 32-pin package
 - 1 user LED
 - 1 reset push-button
-- Board connectors:Arduino™ Nano V3 expansion connectorMicro-AB USB connector for
+- Board connectors:Arduino Nano V3 expansion connectorMicro-AB USB connector for
   the ST-LINK
 - 'Flexible power-supply options: ST-LINK, USB VBUS or external sources'
 - 'On-board ST-LINK debugger/programmer with USB re-enumeration capability: mass storage,
@@ -50,17 +50,17 @@ features:
 - Comprehensive free software libraries and examples available with the STM32Cube
   MCU Package
 - 24 MHz crystal oscillator
-- Arm® Mbed Enabled™ compliant
+- Arm Mbed Enabled compliant
 features_zh:
 - 32针封装的STM32微控制器
 - 1个用户LED
 - 1个复位按钮
-- 电路板c连接器：Arduino™ Nano V3扩展连接器用于ST-LINK的Micro AB USB连接器
+- 电路板c连接器：Arduino Nano V3扩展连接器用于ST-LINK的Micro AB USB连接器
 - 灵活的电源选项：ST-LINK、USB VBU或外部电源
 - 带USB重枚举功能的ST-LINK板载调试器/编程器：大容量存储、虚拟COM端口和调试端口
 - STM32Cube MCU软件包提供全面的免费软件库和示例
 - 24mhz晶体振荡器
-- 启用Arm®Mbed™ 合规
+- 启用ArmMbed 合规
 pkg_type: Board_Support_Packages
 pkg_vendor: RT-Thread
 pkg_version: 1.0.0
