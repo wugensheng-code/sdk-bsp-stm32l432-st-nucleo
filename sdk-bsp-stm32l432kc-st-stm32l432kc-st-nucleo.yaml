@@ -1,0 +1,119 @@
+board:
+  buy_url_cn: https://www.st.com/en/evaluation-tools/nucleo-l432kc.html#sample-buy
+  buy_url_global: https://www.st.com/en/evaluation-tools/nucleo-l432kc.html#sample-buy
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: The STM32 Nucleo-32 board provides an affordable and flexible way
+    for users to try out new concepts and build prototypes by choosing from the various
+    combinations of performance and power consumption features, provided by the STM32
+    microcontroller.
+  description_zh: STM32 Nucleo-32板为用户提供了一种经济、灵活的方式，通过从STM32微控制器提供的性能和功耗特性的各种组合中进行选择，来尝试新概念和构建原型。
+  emulator_machine: ''
+  large_image: documents/images/board_large.png
+  name: STM32L432KC-ST-NUCLEO
+  price_cn: N/A CNY
+  price_global: N/A USD
+  sale_contact_cn: https://www.st.com/
+  sale_contact_global: https://www.st.com/
+  small_image: documents/images/board_small.png
+  vendor: ST
+  version: 1.0.0
+chip:
+  chip_name: STM32L432KC
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32L4
+  source_freq: '8000000'
+  sub_series_name: STM32L432
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/UM-getting-started-with-stm32-nucleo-board.pdf
+  title: UM-getting-started-with-stm32-nucleo-board
+- category: manual
+  file: documents/UM-stm32-nucleo32-boards-mb1180-stmicroelectronics.pdf
+  title: UM-stm32-nucleo32-boards-mb1180-stmicroelectronics
+example_projects: []
+features:
+- STM32 microcontroller in 32-pin package
+- 1 user LED
+- 1 reset push-button
+- Board connectors:Arduino™ Nano V3 expansion connectorMicro-AB USB connector for
+  the ST-LINK
+- 'Flexible power-supply options: ST-LINK, USB VBUS or external sources'
+- 'On-board ST-LINK debugger/programmer with USB re-enumeration capability: mass storage,
+  Virtual COM port and debug port'
+- Comprehensive free software libraries and examples available with the STM32Cube
+  MCU Package
+- 24 MHz crystal oscillator
+- Arm® Mbed Enabled™ compliant
+features_zh:
+- 32针封装的STM32微控制器
+- 1个用户LED
+- 1个复位按钮
+- 电路板c连接器：Arduino™ Nano V3扩展连接器用于ST-LINK的Micro AB USB连接器
+- 灵活的电源选项：ST-LINK、USB VBU或外部电源
+- 带USB重枚举功能的ST-LINK板载调试器/编程器：大容量存储、虚拟COM端口和调试端口
+- STM32Cube MCU软件包提供全面的免费软件库和示例
+- 24mhz晶体振荡器
+- 启用Arm®Mbed™ 合规
+pkg_type: Board_Support_Packages
+pkg_vendor: RT-Thread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvoptx
+    - project.uvprojx
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvoptx
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ST stm32l432-st-nucleo bsp
+  project_name: stm32l432-st-nucleo
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
